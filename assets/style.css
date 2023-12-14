@@ -1,0 +1,19 @@
+.copyable-container {
+  position: relative;
+  display: inline-block;
+}
+
+.copyable {
+  user-select: text;
+  border: 1px solid #ccc;
+  padding: 10px;
+  padding-right: 30px; /* Ruang untuk ikon */
+}
+
+.copy-icon {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
